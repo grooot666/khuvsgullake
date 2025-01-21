@@ -8,6 +8,7 @@
    align-items: center;
    gap: 120px;
    background-color: #F4F4F4;
+  
 }
 .header{
     padding-inline: 100%;
@@ -50,30 +51,28 @@
     margin-top: 40px;
 }
 .KhuvsgulPhotos img{
-    width: 20%;
+    width: 100%;
     height: fit-content;
 }
 .container{
 
     display: flex;
-    width: 67%;
+    width: 23%;
     height: fit-content;
     justify-content: center;
     align-items: center;
-
-    gap: 100px;
+    gap: 50px;
     
 }
 .Agency{
-    width: 40%;
+   
     height: fit-content;
     display: flex;
     flex-direction: column;
     gap: 40px;
 }
 .MapPhoto{
-    width: 60%;
-    height: fit-content;
+    border-radius: 5%;
 }
 .MapPhoto img{
     width: 100%;
@@ -123,6 +122,8 @@
     display: flex;
     align-items: center;
     gap: 20px;
+    width: 100px;
+
 }
 .country p,h3{
     margin: 0;
